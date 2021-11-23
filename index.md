@@ -18,7 +18,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 * If a __LSF__ is the cause of a __disease__, or a __disease__ is a result of a __LSF__, then this relationship is annotated as _LSF causes disease_. Examples:
   * __disease__ that occurs in children as a result of __LSF__
   * __LSF__ is a recognized/reversible/know/common cause of __disease__ 
-  * __disease__ is one of the adverse side effects of 
+  * __disease__ is one of the adverse side effects of __LSF__ shgdgdgd
 
 ### Detailed guidelines
 

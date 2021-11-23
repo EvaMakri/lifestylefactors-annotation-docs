@@ -1,0 +1,29 @@
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+name: Lifestyle Relation Annotation Docs
+homeurl: "https://katnastou.github.io/lifestylefactors-relation-annotation-docs/"
+editurl: "https://github.com/katnastou/lifestylefactors-relation-annotation-docs/edit/master"
+issueurl: "https://github.com/katnastou/lifestylefactors-relation-annotation-docs/issues"
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  entity:
+    output: true

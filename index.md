@@ -8,6 +8,10 @@ title: Documentation for Lifestyle Relation Annotation
 The scope of this annotation is to detect lifestyle factors which affect the risk of disease onset and development. Below are some general examples of the guidelines that will be used in the annotation.
 
 ## General guidelines
+
+* Annotations should be made according to the annotator’s best understanding of the __author’s intended meaning in context__. 
+* Annotators should treat named entities as being __masked__, i.e. they shouldn't annotate relationships between entities just based on their names, when they would be unable to make the same annotations for two other entities.
+
 ### What to annotate:
 
 1. Causal relationship: _LSF causes disease_.

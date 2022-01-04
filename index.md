@@ -59,13 +59,13 @@ Examples:
 
 5. Be careful with an occupation + a clause with LSFs. 
 
-    In the following examples, farmers __should not__ linked with acute lymphatic or chronic lymphatic leukemia. 
+    In the following examples, farmers __should not__ be linked with acute lymphatic or chronic lymphatic leukemia. 
 
     "Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic.
 
     "Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia."
 
-6. Annotate what the sentence says even if there are contradictory statement. Example:
+6. Annotate what the sentence says, even if there are contradictory statement. Example:
     
     Previous study shows A causes B… : annotate A Cause B.
 

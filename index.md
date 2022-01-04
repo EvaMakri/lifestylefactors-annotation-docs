@@ -33,7 +33,7 @@ Examples:
     “Here we study the link between LSF and disease”
 2. Negative statements: 
 
-    “LSF is **not** associated with/**does not** increase the risk of disease”
+    “A LSF is **not** associated with/**does not** increase the risk of disease”
 3. LSF is used for the **therapy** of disease.
 4. No statistical significance: 
 
@@ -46,6 +46,31 @@ Examples:
     “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior → no statistical significance.
 
 5. LSF that is a part of a bigger Named entity: sleep in multiple sleep latency test (MSLT)
+
+### Specific examples
+1. Across sentence boundaries should be annotated.
+2. “Is believed” should be annotated.
+
+    "Air pollutants are believed to induce or exacerbate a range of inflammatory diseases (atopic dermatitis..."
+3. Expression like "limited evidence" should be annotated.
+
+    "Results provide limited evidence for an association of early-life mobile source air pollution with childhood asthma incidence ..."
+4. Animal experiments should be annotated, as they are supposed to be a model for a human disease.
+
+5. Be careful with an occupation + a clause with LSFs. 
+
+    In the following examples, farmers __should not__ linked with acute lymphatic or chronic lymphatic leukemia. 
+
+    "Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic.
+
+    "Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia."
+
+6. Annotate what the sentence says even if there are contradictory statement. Example:
+    
+    Previous study shows A causes B… : annotate A Cause B.
+
+    In contrast to the previous study, A causes C, or C causes B or no relation… : annotate either A causes C, C causes B or nothing
+
 
 ### NB!
 1. Indirect relations annotated as positive.

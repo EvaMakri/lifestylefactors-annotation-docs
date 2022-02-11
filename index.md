@@ -25,7 +25,7 @@ Examples:
 
 2. Statistically associated relationship: _LSF statistically associated with disease_. 
 Examples:
-    * A __LSF__ is associated with (a marked increase in risk for) a __disease__.
+    * A __LSF__ is associated with a __disease__.
     * A __LSF__ incidence/carries a risk of a __disease__.
     * A __disease__ is characterized by a __LSF__.
 

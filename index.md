@@ -14,7 +14,8 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 
 ### What to annotate:
 
-1. Causal relationship: _LSF causes disease_ / _disease causes LSF_
+1. Causal relationship: _LSF causes disease_ / _disease causes LSF_.
+
 Examples:
     * A __LSF__ causes a __disease__.
     * A __LSF__ is a recognized/reversible/know/common cause of a __disease__ 
@@ -24,6 +25,7 @@ Examples:
 
 
 2. Statistically associated relationship: _LSF statistically associated with disease_. 
+
 Examples:
     * A __LSF__ is associated with (a marked increase in risk for) a __disease__.
     * A __LSF__ incidence/carries a risk of a __disease__.
@@ -37,11 +39,15 @@ Examples:
     * A __LSF__ used as defense for a __disease__. → implied risk reduction.
     * A __LSF__ could be critical in the current fight against __disease__.
 
-3. Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_
-    * A __LSF__ is therefore imperative for preventing A __disease__ morbidity and mortality.
+3. Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_.
+
+Examples:
+    * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
     * A __LSF__ is chemopreventive in a __disease__.
 
 4. Therapeutic relationship: _LSF treats disease_.
+
+Examples:
     * The treatment of a __disease__ includes a __LSF__.
     * A __LSF__ is essential for treating a __disease__.
     * A __LSF__ is used for the therapy of a __disease__.

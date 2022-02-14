@@ -29,10 +29,10 @@ Examples:
     * A __LSF__ incidence/carries a risk of a __disease__.
     * A __disease__ is characterized by a __LSF__.
 
-    2.1 Positive statistical association:
+    2.1 Negative statistical association:
       * A __LSF__ increases the risk of a __disease__.
 
-    2.2 Negative statistical association:
+    2.2 Positive statistical association:
       * A __LSF__ decreases the risk of a __disease__.
       * A __LSF__ used as defense for a __disease__. → implied risk reduction.
       * A __LSF__ could be critical in the current fight against __disease__.

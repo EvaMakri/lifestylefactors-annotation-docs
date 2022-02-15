@@ -21,21 +21,28 @@ Examples:
     * A __disease__ is a result/side-effect of a __LSF__.
     * A __disease__ is attributed to / transmitted by / determined by a __LSF__.
     * A __disease__ survivors suffer from a __LSF__.
+    * LSF-induced DIS
+    * A __LSF__ may induce a __DIS__.
+    * A __LSF__ decreases/increased incidence of a __disease__.
 
 
 2. Statistically associated relationship: _LSF statistically associated with disease_. 
 Examples:
     * A __LSF__ is associated with a __disease__.
-    * A __LSF__ incidence/carries a risk of a __disease__.
-    * A __disease__ is characterized by a __LSF__.
 
-    2.1 Negative statistical association:
+    2.1 Positive statistical association:
       * A __LSF__ increases the risk of a __disease__.
+      * A __LSF__ is the risk factor a __disease__.
+      * A __LSF__ carries a risk of a __disease__.
+      * A __LSF__ is associated with the risk of a __disease__.
+      * A __LSF__ is a predictor of a __disease__.
+      * A __disease__ is characterized by a __LSF__.
 
-    2.2 Positive statistical association:
+    2.2 Negative statistical association:
       * A __LSF__ decreases the risk of a __disease__.
       * A __LSF__ used as defense for a __disease__. → implied risk reduction.
       * A __LSF__ could be critical in the current fight against __disease__.
+      * A __LSF__ is inversely associated with a __disease__.
 
 3. Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_.
 Examples:

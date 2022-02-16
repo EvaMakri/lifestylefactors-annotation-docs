@@ -48,6 +48,7 @@ Examples:
 Examples:
     * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
     * A __LSF__ is chemopreventive in a __disease__.
+    * A __LSF__ is protected against a __disease__.
 
 4. Therapeutic relationship: _LSF treats disease_.
 Examples:

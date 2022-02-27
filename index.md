@@ -127,29 +127,29 @@ Examples:
 
 14. Chemicals should be annotated as LSF if they are common, or directly available for ingest as food/supplement, or exposure (even indirect). Examples:
 
-   sugar intake
-   
-   concentrations of Vitamins A
-   
-   Vitamin D supplements
-   
-   serum Vitamin D levels
-   
-   exposure to dioxins
+    sugar intake
+    
+    concentrations of Vitamins A
+    
+    Vitamin D supplements
+    
+    serum Vitamin D levels
+    
+    exposure to dioxins
    
 15. Chemicals should NOT be annotated as LSF if they are normally metabolized in the body. Examples:
 
-   HDL-cholesterol concentrations
-   
-   serum Vitamin D 25-OH levels
-   
-   fasting glucose
+    HDL-cholesterol concentrations
+    
+    serum Vitamin D 25-OH levels
+    
+    fasting glucose
    
 16. Score/index related to diseases can be annotated as disease and score/index related to LSF can be annotated as LSF. Examples:
 
-   peripheral neuropathy score
-   
-   sleep quality score
+    peripheral neuropathy score
+    
+    sleep quality score
    
 
 ### Detailed guidelines

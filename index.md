@@ -121,11 +121,26 @@ Examples:
 
 11. Lifestyle factor or disease names are annotated when they are part of hyphenated compound words (e.g. **asthma**-causing) but **NOT** when they appear as a substring in a word not separated by a boundary such as a hyphen (e.g. **asthma**tic)
 
-12.	Abbreviations are marked if the abbreviation stands for a disease or an LSF mention in scope of the annotation, but not if the full form merely includes an entity mentio (e.g. in modifier position. For example, the A in OA is not annotated despite it standing for asthma.)
+12. Abbreviations are marked if the abbreviation stands for a disease or an LSF mention in scope of the annotation, but not if the full form merely includes an entity mentio (e.g. in modifier position. For example, the A in OA is not annotated despite it standing for asthma.)
 
-13. (Temporary) Common chemicals that are directly available for ingest as food/supplement (e.g., sugar, vitamins, sodium benzoate), and harmful chemicals directly expose to people should be considered as LSFs. Chemical elements that are normally metabolized in the body, or used as a measurement (e.g., NO, glucose and cholesterol) should not be considered LSFs.
+13. pregnancy, menopause and puberty are not LSF.
 
-
+14. Chemicals should be annotated as LSF if they are common, or directly available for ingest as food/supplement, or exposure (even indirect). Examples:
+   sugar intake
+   concentrations of Vitamins A
+   Vitamin D supplements
+   serum Vitamin D levels
+   exposure to dioxins
+   
+15. Chemicals should NOT be annotated as LSF if they are normally metabolized in the body. Examples:
+   HDL-cholesterol concentrations
+   serum Vitamin D 25-OH levels
+   fasting glucose
+   
+16. Score/index related to diseases can be annotated as disease and score/index related to LSF can be annotated as LSF. Examples:
+   peripheral neuropathy score
+   sleep quality score
+   
 
 ### Detailed guidelines
 

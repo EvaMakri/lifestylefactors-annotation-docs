@@ -115,7 +115,7 @@ Examples:
 
 8. Standalone adjectives that are not part of named entities should be blacklisted (e.g. nutritional, occupational etc).
 
-9. Adjectives that are used to describe a disease, but are not part of the official nomenclature should not be annotated (e.g. for “occupational asthma” only the word “asthma” should be annotated as a disease) – following from rule 8.
+9. Adjectives that are used to describe a disease, but are not part of the official nomenclature should not be annotated (e.g. for “occupational asthma” only the word “asthma” should be annotated as a disease) – following from rule 2.
 
 10. Chemical terms should be annotated as standalone entities, and “exposure” should not be annotated as part of these named entities.
 

@@ -17,26 +17,29 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 1. Causal relationship: _LSF causes disease_ / _disease causes LSF_.
 Examples:
     * A __LSF__ causes a __disease__.
-    * A __LSF__ is a recognized/reversible/know/common cause of a __disease__ 
+    * A __LSF__  contributes to the development of a __disease__.  
+    * A __LSF__  developed a __disease__.
+    * A __LSF__ is a recognized/reversible/know/common cause of a __disease__
+    * __LSF__-induced __DIS__
+    * A __LSF__ may induce a __DIS__.
     * A __disease__ is a result/side-effect of a __LSF__.
     * A __disease__ is attributed to / transmitted by / determined by a __LSF__.
-    * A __disease__ survivors suffer from a __LSF__.
-    * LSF-induced DIS
-    * A __LSF__ may induce a __DIS__.
-    * A __LSF__ decreases/increased incidence of a __disease__.
+    * (!Subject to final IAA results!) A __LSF__ decreases/increased incidence of a __disease__.
+    * (!Subject to final IAA results!) A __disease__ survivors suffer from a __LSF__.
 
 
-2. Statistically associated relationship: _LSF statistically associated with disease_. 
+2. Statistically associated relationship: _LSF is statistically associated with disease_. 
 Examples:
     * A __LSF__ is associated with a __disease__.
+    * A __LSF__ is associated with the risk of a __disease__.
 
     2.1 Positive statistical association:
       * A __LSF__ increases the risk of a __disease__.
       * A __LSF__ is the risk factor a __disease__.
       * A __LSF__ carries a risk of a __disease__.
-      * A __LSF__ is associated with the risk of a __disease__.
       * A __LSF__ is a predictor of a __disease__.
       * A __disease__ is characterized by a __LSF__.
+      * survivors/patients with __disease__ were more likely to be __LSF__.
 
     2.2 Negative statistical association:
       * A __LSF__ decreases the risk of a __disease__.
@@ -55,16 +58,23 @@ Examples:
     * The treatment of a __disease__ includes a __LSF__.
     * A __LSF__ is essential for treating a __disease__.
     * A __LSF__ is used for the therapy of a __disease__.
+    * The efficacy of a __LSF__  in __disease__.
+
+5. No association: _LSF is not associated with disease_. Examples:
+    * A __LSF__ is **not** associated with/**does not** increase the risk of a __disease__.
+    * There is no association between __LSF__ and __disease__.
 
 ### What **NOT** to annotate:
 1. Hypothetical statements: 
 
     “Here we study the link between LSF and disease”
-2. Negative statements: 
+    
+    “We ”
+<!-- 2. Negative statements: 
 
-    “A LSF is **not** associated with/**does not** increase the risk of disease”
+    “A LSF is **not** associated with/**does not** increase the risk of disease” -->
 <!-- 3. LSF is used for the **therapy** of disease. -->
-3. No statistical significance: 
+2. No statistical significance: 
 
     “We **did not** find the relationship between LSF and disease to be statistically significant”
 
@@ -72,9 +82,19 @@ Examples:
 
     No statement about a correlation or statistical significance:
     
-    “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior → no statistical significance.
+    “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior.
 
-4. LSF that is a part of a bigger Named entity: sleep in multiple sleep latency test (MSLT)
+    _or_
+
+    Observation:
+
+    “Cannabis is the most widely used illicit substance in the United States with especially high prevalence of use among those with psychiatric disorders.”
+
+3. LSF that is a part of a bigger Named entity: sleep in multiple sleep latency test (MSLT)
+4. Do NOT annotate "... in/among LSF/DIS":
+
+    __Dairy farmers__ is not part of relation: Among __dairy farmers__, moreover, __lung cancer__ SMRs showed a significant downward trend across the quartiles of increasing __length of work__.
+
 
 ### Special rules for relationships:
 1. Across sentence boundaries should be annotated.
@@ -151,6 +171,7 @@ Examples:
     
     sleep quality score
    
+
 
 ### Detailed guidelines
 

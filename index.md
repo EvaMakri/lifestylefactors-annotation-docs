@@ -69,11 +69,6 @@ Examples:
 
     “Here we study the link between LSF and disease”
     
-    “We ”
-<!-- 2. Negative statements: 
-
-    “A LSF is **not** associated with/**does not** increase the risk of disease” -->
-<!-- 3. LSF is used for the **therapy** of disease. -->
 2. No statistical significance: 
 
     “We **did not** find the relationship between LSF and disease to be statistically significant”

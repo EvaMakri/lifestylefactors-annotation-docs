@@ -25,7 +25,7 @@ Examples:
     * A __disease__ is a result/side-effect of a __LSF__.
     * A __disease__ is attributed to / transmitted by / determined by a __LSF__.
     * The consequences of a __LSF__ is a __disease__.
-    * (Subject to final IAA results) A __disease__ survivors suffer from a __LSF__.
+    * ~~(Subject to final IAA results) A __disease__ survivors suffer from a __LSF__.~~
 
 
 2. Statistically associated relationship: _LSF is statistically associated with disease_. 
@@ -39,7 +39,7 @@ Examples:
       * A __LSF__ carries a risk of a __disease__.
       * A __LSF__ is a predictor of a __disease__.
       * A __disease__ is characterized by a __LSF__.
-      * survivors/patients with __disease__ were more likely to be __LSF__.
+      * survivors/patients with __disease__ were more had/likely to be __LSF__.
       * A __LSF__ increases incidence of a __disease__.
       * A __LSF__ increases prevalence of a __disease__. But prevalence without any statistical significance testing should not be annotated.
       * A __LSF__ contributes to the burden of a __disease__.
@@ -61,14 +61,18 @@ Examples:
      * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
      * A __LSF__ is chemopreventive in a __disease__.
      * A __LSF__ is protected against a __disease__.
+     * A __LSF__ reduce a __disease__ mortality.
 
     3.2 Therapeutic relationship: _LSF treats disease_.
     Examples:
      * The treatment of a __disease__ includes a __LSF__.
      * A __LSF__ is essential for treating a __disease__.
      * A __LSF__ is used for the therapy of a __disease__.
-     * The efficacy of a __LSF__  in __disease__.
+     * The efficacy of a __LSF__  in a __disease__.
      * A __LSF__ is the relief of a __disease__.
+     * A __LSF__ is was effective in a __disease__.
+     * A __disease__ were eliminated by a __LSF__.
+     * A __disease__ were improved after (using) a __LSF__.
 
 4. No statistical association: _LSF is not associated with disease_. Examples:
     * A __LSF__ is **not** associated with a __disease__.

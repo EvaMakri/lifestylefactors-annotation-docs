@@ -22,11 +22,11 @@ Examples:
     * A __LSF__ is a recognized/reversible/know/common cause of a __disease__
     * __LSF__-induced __DIS__
     * A __LSF__ may induce a __DIS__.
+    * A __LSF__ increases a __disease__ mortality.
     * A __disease__ is a result/side-effect of a __LSF__.
     * A __disease__ is attributed to / transmitted by / determined by a __LSF__.
     * The consequences of a __LSF__ is a __disease__.
-    * ~~(Subject to final IAA results) A __disease__ survivors suffer from a __LSF__.~~
-
+    * ~~(Subject to final IAA results) A __disease__ survivors suffer from a __LSF__.~
 
 2. Statistically associated relationship: _LSF is statistically associated with disease_. 
 Examples:

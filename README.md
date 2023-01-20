@@ -1,6 +1,9 @@
-# lifestylefactors-annotation-docs
- Annotation documentation for Lifestyle Factors
 
-https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/entities
+## NER Annotation Guidelines
+* https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/entities
 
-https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/relations
+
+## RE Annotation Guidelines
+* https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/relations
+
+

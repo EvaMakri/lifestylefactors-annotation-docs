@@ -1,4 +1,4 @@
 # lifestylefactors-entities-annotation-docs
- Annotation documentation for Lifestyle entities
+ Annotation documentation for Lifestyle Factors
 
-https://esmaeilnourani.github.io/lifestylefactors-entities-annotation-docs/
+https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/

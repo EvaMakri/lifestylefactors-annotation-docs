@@ -26,7 +26,6 @@ Examples:
     * A __disease__ is a result/side-effect of a __LSF__.
     * A __disease__ is attributed to / transmitted by / determined by a __LSF__.
     * The consequences of a __LSF__ is a __disease__.
-    * ~~(Subject to final IAA results) A __disease__ survivors suffer from a __LSF__.~
 
 2. Statistically associated relationship: _LSF is statistically associated with disease_. 
 Examples:

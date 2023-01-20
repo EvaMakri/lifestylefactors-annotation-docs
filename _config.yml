@@ -16,9 +16,9 @@ markdown_ext: md
 # Site settings
 
 name: Lifestyle Entities Annotation Docs
-homeurl: "https://esmaeilnourani.github.io/lifestylefactors-entities-annotation-docs/"
-editurl: "https://github.com/esmaeilnourani/lifestylefactors-entities-annotation-docs/edit/gh-pages"
-issueurl: "https://github.com/esmaeilnourani/lifestylefactors-entities-annotation-docs/issues"
+homeurl: "https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/"
+editurl: "https://github.com/esmaeilnourani/lifestylefactors-annotation-docs/edit/gh-pages"
+issueurl: "https://github.com/esmaeilnourani/lifestylefactors-annotation-docs/issues"
 
 ##############################################################################
 

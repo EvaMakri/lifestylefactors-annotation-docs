@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Documentation for Lifestyle Entities Annotation
+title: Documentation for Lifestyle Factors Annotation
 ---
 
 ## Annotation scope

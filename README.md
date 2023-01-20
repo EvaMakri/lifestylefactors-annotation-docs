@@ -1,4 +1,4 @@
 # lifestylefactors-entities-annotation-docs
- Annotation documentation for LSF disease relationships
+ Annotation documentation for Lifestyle entities
 
-https://katnastou.github.io/lifestylefactors-relation-annotation-docs/
+https://esmaeilnourani.github.io/lifestylefactors-entities-annotation-docs/

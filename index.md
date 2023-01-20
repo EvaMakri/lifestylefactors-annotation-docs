@@ -10,5 +10,3 @@ title: Documentation for Lifestyle Factors Annotation
 ## RE Annotation Guidelines
 * https://esmaeilnourani.github.io/lifestylefactors-annotation-docs/relations
 
-
-

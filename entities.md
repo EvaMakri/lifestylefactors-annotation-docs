@@ -9,6 +9,23 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 
 ## General guidelines
 
+* Annotations should be made according to the annotator’s best understanding of the __author’s intended meaning in context__. 
+
+* For a __Lifestyle_factor__ following attributes can be selected (None of them, only one, or more if applicable)
+  * Beauty and Cleaning    
+  * Nutrition    
+  * Drugs     
+  * Environmental exposures     
+  * Non_physical leisure time_activities    
+  * Physical activity   
+  * Sleep    
+  * Socioeconomic factors   
+  * Mental health practices    
+
+
+### What to annotate:
+
+
 * Top-level terms (e.g. nutrition) should be annotated – even if relationships cannot be annotated for these terms.
 
 

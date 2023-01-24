@@ -16,7 +16,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
   * Nutrition    
   * Drugs     
   * Environmental exposures     
-  * Non_physical leisure time_activities    
+  * Non physical leisure time activities    
   * Physical activity   
   * Sleep    
   * Socioeconomic factors   

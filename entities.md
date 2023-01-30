@@ -66,6 +66,9 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 * Do not annotate all treatments. Only keep psychotherapy and entities related to it (e.g., CBT).
 
 
+## To Do:
+* Fruits
+
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

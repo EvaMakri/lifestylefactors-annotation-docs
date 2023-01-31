@@ -70,6 +70,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 * Fruits
 * Jobs
 * sports
+* cultural factors
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

@@ -71,6 +71,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 * Jobs
 * sports
 * cultural factors
+* carcinogen
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

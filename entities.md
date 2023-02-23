@@ -44,7 +44,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 * Abbreviations are marked if the abbreviation stands for a disease or an LSF mention in scope of the annotation, but not if the full form merely includes an entity mention (e.g. in modifier position. For example, the A in OA is not annotated despite it standing for asthma.)
 
 
-* Pregnancy, menopause and puberty are not LSF.
+* Pregnancy, menopause and puberty are not annotated as LSFs.
 
 
 * Chemicals should be annotated as LSF if they are common, or directly available for ingest as food/supplement, or exposure (even indirect). Examples:
@@ -63,15 +63,20 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
   * peripheral neuropathy score
   * sleep quality score
 
-* Do not annotate all treatments. Only keep psychotherapy and entities related to it (e.g., CBT).
+* Do not annotate all treatments. Only keep psychotherapy and entities related to it (e.g., CBT therapy).
+
+* Food names should be annotated only if the common taxonomic names (e.g. banana) are actual foods. The Linnean names (e.g. _Citrus sinensis_) should not be annotated. 
+
+* Occupations should generally be annotated as Lifestyle Factors. 
+
+* Sports and doing sports should generally be annotated and the attribute should be decided case-by-case.
+
+* Different carcinogens should be annotated as Lifestyle Factors (e.g. "exposure to exhaust fumes"). The actual word "carcinogen" should not be annotated.
 
 
 ## To Do:
-* Fruits
-* Jobs
-* sports
 * cultural factors
-* carcinogen
+
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

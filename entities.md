@@ -73,6 +73,13 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 
 * Different carcinogens should be annotated as Lifestyle Factors (e.g. "exposure to exhaust fumes"). The actual word "carcinogen" should not be annotated.
 
+* If LSF is a part of another LSF, the longer should be annotated
+
+* If LSF is a part of non-LSF entity, it should be annotated as LSF with a comment: 'part-of-longer-non-LSF-entity'
+
+
+
+
 
 ## To Do:
 * cultural factors

@@ -71,14 +71,15 @@ The scope of this annotation is to detect lifestyle factors. Below are some gene
 
 * If an LSF is a part of another LSF, the left-longest match should be annotated
 
-* If an LSF is a part of non-LSF entity, it should be annotated as LSF with an annotator's note: 'part-of-longer-non-LSF-entity'
+* If an LSF is a part of non-LSF entity (e.g. _substance abuse_ in __substance abuse disorder__ or _chicken_ in __chicken embryo__), it should be annotated as LSF with an annotator's note: 'part-of-longer-non-LSF-entity'
 
-
+* _Energy content_ is a synonym for _caloric intake_ and should be annotated as __LSF__
 
 
 
 ## To Do:
 * cultural factors
+* social media: Should they be annotated as standalone entities, i.e. _Twitter_ or only when the word _use_ or _usage_ is part of the NE?
 
 
 

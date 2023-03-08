@@ -7,7 +7,27 @@ title: Documentation for Lifestyle Entities Annotation
 
 The scope of this annotation is to detect lifestyle factor named entities in text. Below are some general examples of the guidelines that will be used in the annotation.
 
-Definition for LSF to be added here:
+Definition for Lifestyle (LSF):
+
+Lifestyle is a complex and multifaceted concept that involves many different factors. It can be defined as the behaviors, habits, and daily activities that individuals engage in, which can impact their health and well-being. Within the context of lifestyle, there are several categories that can be distinguished and annotated, including:
+
+1. __Beauty and cleaning practices:__ Activities related to "hygiene" (e.g. “shower daily”), “use of cosmetic and cleaning products” as well as invasive procedures that people undergo to improve their appearance, such as “cosmetic surgery”. 
+
+2. __Nutrition:__ Coveres different branches including "Dietary habits", "Food groups", "Fooe processing and prepartion", "Macronutrients", and "Micronutrients". 
+
+3. __Drugs:__ Refers to illicit/recreational drugs, not those prescribed by doctors for medical conditions. 
+
+4. __Environmental exposures:__ Exposure to various environmental factors, such as air pollution, water quality, and workplace hazards, that can impact an individual's health.
+
+5. __Non-physical leisure time activities:__ Any activity an individual might be preoccupied with in their free time that is not a physical activity, e.g. listening to music, and reading books.
+
+6. __Physical activities:__ Regular exercise and physical activities including leisure time physical activities, occupational activities, and household activities.
+
+7. __Sleep:__ Covers sleep quality, stages, conditions, and sleep habits.
+
+8. __Socioeconomic factors:__ Refer to the social and economic conditions including: 'Income and wealth', 'Education', 'Occupation', 'Housing', and 'Social support'.
+
+9. __Mental health practices:__ The behaviors and habits related to maintaining good mental health and emotional well-being including "Meditation", and "psychotherapy".
 
 
 ## General guidelines

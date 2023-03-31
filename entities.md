@@ -32,7 +32,7 @@ Lifestyle is a complex and multifaceted concept that involves many different fac
 
 ## General guidelines
 
-* Annotations should be made according to the annotator’s best understanding of the __author’s intended meaning in context__.  The attribute "LSF out of context" has been added for cases where the annotators judge that a term can appear as an LSF in text, but the intended meaning in context is not that of a Lifestyle factor.
+* Annotations should be made according to the annotator’s best understanding of the __author’s intended meaning in context__.  In context in this case is the entire abstract that the annotator has to annotate each time. The attribute "LSF out of context" has been added for cases where the annotators judge that a term can appear as an LSF in text, but the intended meaning in context is not that of a Lifestyle factor.
 
 * For a __Lifestyle_factor__ the following attributes can be selected (None of them, only one, or more if applicable)
   * Beauty and Cleaning    
@@ -106,6 +106,16 @@ There are two levels in the annotation process that the annotators should keep i
 
 ## To Discuss:
 * cultural factors
+* work: is problematic because it is a verb, on top of a noun and should only be annotated when it is an LSF in context
+* Same rule should be applied to other words that are different parts of speech, when the most common instances are not LSFs. 
+* standalone "therapy" should be annotated with caution, as so that pharmaceutical therapies are not annotated. If in the abstract therapy refers to "psychotherapy" it should be annotated, with annotator's note: "Psychotherapy"
+* relationships standalone follow the same rule as therapy. The will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
+* standalone "therapist" should be annotated as occupation. 
+* demographic factors should not be annotated
+* mark discontnuous entities with add fragment functionality. 
+* "beliefs" should not be annotated as LSF, unless it is religious beliefs
+* orthodontic practice and orthodontic treatment should be annotated as LSFs
+* We will annotate countries and nationalities with comment "country" and "nationality"
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

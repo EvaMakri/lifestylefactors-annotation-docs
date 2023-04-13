@@ -105,7 +105,6 @@ There are two levels in the annotation process that the annotators should keep i
 
 
 ## To Discuss:
-* cultural factors
 * work: is problematic because it is a verb, on top of a noun and should only be annotated when it is an LSF in context
 * Same rule should be applied to other words that are different parts of speech, when the most common instances are not LSFs. 
 * standalone "therapy" should be annotated with caution, as so that pharmaceutical therapies are not annotated. If in the abstract therapy refers to "psychotherapy" it should be annotated, with annotator's note: "Psychotherapy"

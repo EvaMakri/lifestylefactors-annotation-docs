@@ -103,17 +103,25 @@ There are two levels in the annotation process that the annotators should keep i
 
 * Entities that have an __"LSF out of context"__ attribute and an __"Environmental exposures"__, __"Non physical leisure time activities"__ or __"Physical activity "__ attribute will be removed from the final annotated corpus, as they are not expected to constitute LSFs on their own right. Specifically,  __"Non physical leisure time activities"__ and __"Physical activity "__ need an action to happen or at least be implied to be considered as Lifestyle Factors (e.g. __internet__ on each own is not an LSF, but __internet use__ is), while __"Environmental exposures"__ are only LSFs, if one is exposed to them, not necessarily as standalone entities (e.g. __acrylamide exposure__ is an LSF, but not __acrylamide__).
 
+* work: is problematic because it is a verb, on top of a noun and should only be annotated when it is an LSF in context
+
+* Same rule should be applied to other words that are different parts of speech, when the most common instances are not LSFs. 
+
+* standalone "therapy" should be annotated with caution, as so that pharmaceutical therapies are not annotated. If in the abstract therapy refers to "psychotherapy" it should be annotated, with annotator's note: "Psychotherapy"
+
+* relationships standalone follow the same rule as therapy. The will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
+
+* demographic factors should not be annotated (i.e. age group, gender, and race)
+
+* "beliefs" should not be annotated as LSF, unless it is religious beliefs
+
+* orthodontic practice and orthodontic treatment should be annotated as LSFs
+
+* mark discontnuous entities with add fragment functionality. 
+
 
 ## To Discuss:
-* work: is problematic because it is a verb, on top of a noun and should only be annotated when it is an LSF in context
-* Same rule should be applied to other words that are different parts of speech, when the most common instances are not LSFs. 
-* standalone "therapy" should be annotated with caution, as so that pharmaceutical therapies are not annotated. If in the abstract therapy refers to "psychotherapy" it should be annotated, with annotator's note: "Psychotherapy"
-* relationships standalone follow the same rule as therapy. The will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
 * standalone "therapist" should be annotated as occupation. 
-* demographic factors should not be annotated
-* mark discontnuous entities with add fragment functionality. 
-* "beliefs" should not be annotated as LSF, unless it is religious beliefs
-* orthodontic practice and orthodontic treatment should be annotated as LSFs
 * We will annotate countries and nationalities with comment "country" and "nationality"
 
 

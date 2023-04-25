@@ -85,8 +85,6 @@ There are two levels in the annotation process that the annotators should keep i
 
 * Food names should be annotated only if the common taxonomic names (e.g. banana) are actual foods. The Linnean names (e.g. _Citrus sinensis_) should not be annotated. 
 
-* Occupations should generally be annotated as Lifestyle Factors. 
-
 * Sports and doing sports should generally be annotated and the attribute should be decided case-by-case.
 
 * Different carcinogens should be annotated as Lifestyle Factors (e.g. "exposure to exhaust fumes"). 
@@ -109,6 +107,8 @@ There are two levels in the annotation process that the annotators should keep i
 
 * standalone "therapy" should be annotated with caution, as so that pharmaceutical therapies are not annotated. If in the abstract therapy refers to "psychotherapy" it should be annotated, with annotator's note: "Psychotherapy"
 
+* standalone "therapist" should not be annotated. 
+
 * relationships standalone follow the same rule as therapy. The will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
 
 * demographic factors should not be annotated (i.e. age group, gender, and race)
@@ -119,10 +119,11 @@ There are two levels in the annotation process that the annotators should keep i
 
 * mark discontnuous entities with add fragment functionality. 
 
+* Countries and cities should be annotated by selecting "Geographical Feature" as the attribute.
 
-## To Discuss:
-* standalone "therapist" should be annotated as occupation. 
-* We will annotate countries and nationalities with comment "country" and "nationality"
+* Nationalities should not be annotated.
+
+* Occupations should be annotated by selecting "Occupations" as the attribute. 
 
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.

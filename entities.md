@@ -109,7 +109,7 @@ There are two levels in the annotation process that the annotators should keep i
 
 * standalone "therapist" should not be annotated. 
 
-* relationships standalone follow the same rule as therapy. The will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
+* relationships standalone follow the same rule as therapy. They will be annotated as "social relationships" with a note. But the word relationship (singular) should be annotated with extra caution (similarly to word work), because it can be part of the phrase "in relationship with" when comparing two things, and there it should not be annotated. 
 
 * demographic factors should not be annotated (i.e. age group, gender, and race)
 

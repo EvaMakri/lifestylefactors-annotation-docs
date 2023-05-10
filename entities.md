@@ -117,7 +117,7 @@ There are two levels in the annotation process that the annotators should keep i
 
 * orthodontic practice and orthodontic treatment should be annotated as LSFs
 
-* mark discontnuous entities with add fragment functionality. 
+* mark discontinuous entities with add fragment functionality. 
 
 * Countries and cities should be annotated by selecting "Geographical Feature" as the attribute.
 

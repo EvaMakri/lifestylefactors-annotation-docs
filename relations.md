@@ -136,7 +136,8 @@ Examples:
 
 7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.
 
-1. Indirect relations should be annotated.
+1. Indirect relations should be annotated. However, in cases like “__LSF__ was not independently associated with __disease__” do not annotate unless it specifically mentions that the LSF was dependently associated.
+
 
 2. Relationships like the following: 
 

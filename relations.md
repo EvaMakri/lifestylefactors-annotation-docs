@@ -146,7 +146,8 @@ Examples:
 
 5. Annotate relationships even when they are not independent.
 6. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
-   __SO2__ was also significantly associated with __birth defects__ in the second month before the pregnancy (aOR = 1.31; 95% CI: 1.20 ~ 3.22).
+   
+   "__SO2__ was also significantly associated with __birth defects__ in the second month before the pregnancy (aOR = 1.31; 95% CI: 1.20 ~ 3.22)."
 
 
 

@@ -42,6 +42,9 @@ Examples:
       * A __LSF__ increases incidence of a __disease__.
       * A __LSF__ increases prevalence of a __disease__. But prevalence without any statistical significance testing should not be annotated.
       * A __LSF__ contributes to the burden of a __disease__.
+      *  A __LSF__ should be considered during risk stratification for a __disease__
+
+
 
     2.2 Negative statistical association:
       * A __LSF__ decreases the risk of a __disease__.

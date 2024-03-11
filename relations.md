@@ -112,7 +112,7 @@ Examples:
 2. “Is believed” should be annotated.
 
     "Air pollutants are believed to induce or exacerbate a range of inflammatory diseases (atopic dermatitis..."
-3. Expression like "limited evidence" should be annotated.
+3. Expression like "limited evidence" should be annotated. However, do not annotate when there are mentions of inconsistent evidence.
 
     "Results provide limited evidence for an association of early-life mobile source air pollution with childhood asthma incidence ..."
 4. Animal experiments should be annotated, as they are supposed to be a model for a human disease.

@@ -143,7 +143,7 @@ Examples:
 
     __LSF1__ and __LSF2__ when present together cause disease __disease__, but when __LSF1__ is present alone it **does not** cause __disease__.
     
-    Annotate as _LSF1 causes disease_, _LSF2 causes disease_  and negative for LSF1.
+    Annotate as _LSF1 causes disease_, _LSF2 causes disease_ (for the first sentence) and no annotations between LSF1 and disease in the second sentence.
 
 
 4. Compared/comparison: annotate the relationships with the reverse SA type and add a Note: “rel=comparison”.

@@ -50,7 +50,6 @@ Examples:
       * A __LSF__ decreases the risk of a __disease__.
       * A __LSF__ decreases incidence of a __disease__.
       * A __LSF__ decreases prevalence of a __disease__.
-      * A __LSF__ used as defense for a __disease__. → implied risk reduction.
       * A __LSF__ could be critical in the current fight against __disease__.
       * A __LSF__ is inversely associated with a __disease__.
       
@@ -58,12 +57,14 @@ Examples:
     * A __LSF__ play a regulatory role in __disease__.
     * A __LSF__ has beneficial effect for the control of __disease__. 
     * A __LSF__ is associated with __disease__ treatment and control.
+    * A __LSF__ decreases/reduces/attentuates __disease__ (not the prevalence of __disease__).
 
     3.1 Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_. Examples:
      * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
      * A __LSF__ is chemopreventive in a __disease__.
      * A __LSF__ is protected against a __disease__.
      * A __LSF__ reduce a __disease__ mortality.
+     * A __LSF__ used as defense for a __disease__.
 
     3.2 Therapeutic relationship: _LSF treats disease_.
     Examples:
@@ -79,43 +80,53 @@ Examples:
 4. No statistical association: _LSF is not associated with disease_. Examples:
     * A __LSF__ is **not** associated with a __disease__.
     * There is no association between __LSF__ and __disease__.
-    * There is a association between __LSF__ and __disease__, but **no significance**.
 
 ### What **NOT** to annotate:
 1. Hypothetical statements: 
 
     “Here we study the link between LSF and disease”
-    
-2. No statistical significance: 
+    "It is possible to suspect a relationship between ESRD and insecticides or pesticides.
+    "LSF might be involved". -> Take context into consideration.
+   
+3. No statistical significance but tendency: 
 
-    “We **did not** find the relationship between LSF and disease to be statistically significant”
+    “We **did not** find the relationship between LSF and disease to be statistically significant” / "There is an association between __LSF__ and __disease__, but **no significance**".
 
     _or_
 
     No statement about a correlation or statistical significance:
     
     “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior.
+    "LSF1 treated Disease in 4 individuals and LSF2 caused Disease in 7 individuals". -> do not annotate anything.
 
     _or_
 
     Observation:
 
     “Cannabis is the most widely used illicit substance in the United States with especially high prevalence of use among those with psychiatric disorders.”
+   
+    _or_
+   
+   Prevalence mentions:
 
-3. LSF that is a part of a bigger Named entity: sleep in multiple sleep latency test (MSLT)
-4. Do NOT annotate "... in/among LSF/DIS":
+   Do not annotate differences in prevalence (either as % or as number of people or as mentioned in text) unless statistical significance is mentioned (aka a statistical test is performed). 
+
+4. LSF that is a part of a bigger Named entity: sleep in multiple sleep latency test (MSLT)
+5. Do NOT annotate "... in/among LSF/DIS":
 
     __Dairy farmers__ is not part of relation: Among __dairy farmers__, moreover, __lung cancer__ SMRs showed a significant downward trend across the quartiles of increasing __length of work__.
 
-5. Statistical associations should not be annotated if p-value is greater than 0.05.
+6. Statistical associations should not be annotated if p-value is greater than 0.05.
+7. Statistical associations should not be annotated if CI encompasses 1.0. (23391765)
 
+   "An increase of 10 mug/m(3) of 2-day moving average concentrations of sulfur dioxide and nitrogen dioxide corresponded to 0.54% (95% posterior intervals, 0.28-0.81) and 0.88% (95% posterior intervals, 0.54-1.22) increase of stroke mortality".
 
 ### Special rules for relationships:
 1. Across sentence boundaries should be annotated.
 2. “Is believed” should be annotated.
 
     "Air pollutants are believed to induce or exacerbate a range of inflammatory diseases (atopic dermatitis..."
-3. Expression like "limited evidence" should be annotated. However, do not annotate when there are mentions of inconsistent evidence.
+3. In cases where "Limited/Weak/Poor/Little evidence" is mentioned: Judge the author’s intention: If the author makes you understand that the evidence is inadequate, do not annotate. In the opposite case, annotate. However, do not annotate when there are mentions of inconsistent evidence.
 
     "Results provide limited evidence for an association of early-life mobile source air pollution with childhood asthma incidence ..."
 4. Animal experiments should be annotated, as they are supposed to be a model for a human disease.
@@ -146,12 +157,19 @@ Examples:
     Annotate as _LSF1 causes disease_, _LSF2 causes disease_ (for the first sentence) and no annotations between LSF1 and disease in the second sentence.
 
 
-4. Compared/comparison: annotate the relationships with the reverse SA type and add a Note: “rel=comparison”.
+4. Compared/comparison: a) if the comparison is between LSF/not having LSF or Dis/not having Dis then annotate only LSF to Dis with the appropriate relationship (not the not-LSF or not-Dis).
 
-5. Annotate relationships even when they are not independent.
-6. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
+   "The seizure rate was significantly higher in cocaine users (37 [26%] of 142 patients) than in non-cocaine users (151 [15.2%] of 992 patients, p = 0.001).
+   
+   b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied in comparison to not having Dis or do not annotate at all if assuming is not possible.
+
+   "The proportion of patients working in professions with exposures to known carcinogens was 33.5% for lung cancer, and 17.1% for large bowel cancer (p=0.000)".
+
+6. Annotate relationships even when they are not independent.
+7. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
    
    "__SO2__ was also significantly associated with __birth defects__ in the second month before the pregnancy (aOR = 1.31; 95% CI: 1.20 ~ 3.22)."
+8. Annotate LSF and Disease mortality associations in as LSF and Disease.
 
 
 
